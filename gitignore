@@ -1,0 +1,42 @@
+# ─── Input data (large files — never commit) ───────────────────────────────────
+data/
+*.nc
+*.prmtop
+*.prmcrd
+*.rst7
+*.inpcrd
+
+# ─── MD output and trajectory files ────────────────────────────────────────────
+*.dcd
+*.trr
+*.xtc
+*.crd
+*.mdcrd
+*.mdinfo
+*.out
+*.mdin
+*.mdout
+
+# ─── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+env/
+
+# ─── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editors ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
